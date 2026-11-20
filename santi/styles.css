@@ -4,7 +4,7 @@
   --yellow: #f5d90a;
   --cream: #f2ede3;
   --track: #e3dccd;
-  --green: #22472c;
+  --darkblue: #0B1F4D;
   --blue: #0f68e3;
   --sky: #5cb8f5;
   --ink: #0a0a0a;
@@ -156,10 +156,10 @@ ol, ul { list-style: none; }
 .skill--red .skill__head em { color: var(--red); }
 .skill--navy { --c: var(--navy); }
 .skill--blue { --c: var(--blue); }
-.skill--green { --c: var(--green); }
+.skill--darkblue { --c: var(--darkblue); }
 
 /* ---------- TRAYECTORIA ---------- */
-.tray { background: var(--green); color: var(--cream); padding: 84px 0 70px; position: relative; overflow: hidden; }
+.tray { background: var(--darkblue); color: var(--cream); padding: 84px 0 70px; position: relative; overflow: hidden; }
 .tray__grid { display: grid; grid-template-columns: 340px 1fr; gap: 40px; }
 .tray__desc { margin-top: 14px; max-width: 300px; font-size: 13px; line-height: 1.65; color: #cdd6c9; }
 .timeline { border-top: 2px solid rgba(242, 237, 227, 0.55); }
